@@ -2,189 +2,244 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Avery Holmes Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Avery Holmes | Software Engineering Resume</title>
+    <meta
+      name="description"
+      content="Avery Holmes — software engineering graduate student, mobile application developer, and enterprise risk and governance professional."
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Avery Holmes</h1>
+    <header class="site-header">
+      <div class="container header-grid">
+        <img
+          class="profile-photo"
+          src="./assets/images/AveryHolmesProfilePic.png"
+          alt="Headshot of Avery Holmes"
+        />
 
-      <img
-        src="./assets/images/AveryHolmesProfilePic.png"
-        alt="Headshot of Avery Holmes"
-        height="350"
-      />
-
-      <p>
-        Chesterfield, VA •
-        <a href="mailto:avery.i.holmes1@gmail.com">avery.i.holmes1@gmail.com</a> •
-        <a
-          href="https://www.linkedin.com/in/averyholmes/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >LinkedIn</a
-        >
-        •
-        <a
-          href="https://github.com/avery-holmes"
-          target="_blank"
-          rel="noopener noreferrer"
-          >GitHub</a
-        >
-      </p>
-
-      <nav>
-        <a href="./public/contact.html">Contact Me</a>
-      </nav>
-
-      <hr />
+        <div>
+          <h1>Avery Holmes</h1>
+          <p class="tagline">
+            Software Engineering Graduate Student · Mobile Application Developer ·
+            Enterprise Risk &amp; Governance Professional
+          </p>
+          <div class="quick-links">
+            <a href="mailto:avery.i.holmes1@gmail.com">Email</a>
+            <a
+              href="https://www.linkedin.com/in/averyholmes/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/avery-holmes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <main>
+    <nav aria-label="Primary navigation">
+      <div class="container">
+        <a href="./index.html">Resume</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <main class="container">
       <section>
-        <h2>Summary</h2>
+        <h2>Professional Summary</h2>
         <p>
-          I’m Avery Holmes, a Lead HR Risk &amp; Governance professional at Fannie Mae and an
-          Intelligence Officer in the Air National Guard, currently transitioning into software
-          engineering through WVU’s MS in Software Engineering program. I build practical projects in
-          Java and full-stack web development to strengthen my fundamentals, improve problem-solving,
-          and ship reliable applications. My goal is to move into a front-end or full-stack role
-          where I can apply disciplined systems thinking, clear communication, and execution under
-          pressure to deliver high-impact software.
+          I am a software engineering graduate student transitioning into software
+          development after building a career in enterprise risk, governance, and
+          cross-functional technology oversight. My current work combines hands-on
+          development in React Native, TypeScript, and Java with experience translating
+          complex requirements into structured, reliable processes.
+        </p>
+        <p>
+          I am particularly interested in front-end, mobile, and full-stack engineering
+          roles where product thinking, technical execution, and clear communication all
+          matter.
         </p>
       </section>
 
-      <hr />
+      <section>
+        <h2>Selected Projects</h2>
+
+        <article>
+          <h3>TCH — Technology for Caregivers in the Home</h3>
+          <p class="meta">React Native · Expo · TypeScript · AsyncStorage</p>
+          <p>
+            Mobile caregiver-coordination application designed around day-to-day care
+            tracking and handoffs. The current prototype supports structured care-event
+            logging, child-centered workflows, persistent local history, a care calendar,
+            responsive mobile layouts, and roadmap-driven product iteration.
+          </p>
+          <p>
+            The project is now moving from academic prototype toward an external beta,
+            with current focus on maintainable architecture, onboarding, authentication,
+            shared-care synchronization, and security.
+          </p>
+        </article>
+
+        <article>
+          <h3>SENG 505 Java Applications</h3>
+          <p class="meta">Java · Collections · Data Structures · Simulation</p>
+          <p>
+            Curated graduate coursework covering queues, linked lists, stacks, recursion,
+            custom data structures, network/file I/O, and application logic.
+          </p>
+          <p>
+            <a href="https://github.com/avery-holmes/SENG505-Java-Applications">
+              View repository
+            </a>
+          </p>
+        </article>
+
+        <article>
+          <h3>Java Programming Foundations</h3>
+          <p class="meta">Java · Control Flow · Methods · Input Validation</p>
+          <p>
+            Introductory Java coursework preserved as a learning archive showing the
+            progression from basic syntax through conditionals, loops, methods, and
+            structured problem solving.
+          </p>
+          <p>
+            <a href="https://github.com/avery-holmes/ITP120--Java-Intro">
+              View repository
+            </a>
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Technical Skills</h2>
+        <div class="grid-two">
+          <div class="card">
+            <h3>Development</h3>
+            <ul>
+              <li>Java</li>
+              <li>TypeScript</li>
+              <li>React Native</li>
+              <li>Expo / Expo Router</li>
+              <li>HTML / CSS</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Engineering Workflow</h3>
+            <ul>
+              <li>Git / GitHub</li>
+              <li>GitHub pull requests and CI checks</li>
+              <li>Object-oriented design fundamentals</li>
+              <li>Data structures and algorithms practice</li>
+              <li>API and cloud architecture fundamentals</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section>
         <h2>Education</h2>
-        <p>
-          <strong>Bachelor of Arts, Criminology</strong><br />
-          <strong>West Virginia University</strong> — Morgantown, WV
-        </p>
+        <article>
+          <h3>West Virginia University</h3>
+          <p>
+            <strong>M.S. Software Engineering</strong> — expected Summer 2027
+          </p>
+          <p class="meta">
+            Coursework includes programming applications with Java, software analysis
+            and design, software engineering principles, mobile application development,
+            and object-oriented design.
+          </p>
+        </article>
+
+        <article>
+          <h3>West Virginia University</h3>
+          <p><strong>B.A. Criminology</strong> — 2015</p>
+        </article>
       </section>
 
-      <hr />
-
       <section>
-        <h2>Certifications</h2>
-        <ul>
-          <li>
-            <strong>Risk Management Association Certificate</strong>: Operational Risk Management
-            Fundamentals (Nov 2022)
-          </li>
-          <li>
-            <strong>American Bankers Association Certificate</strong>: Operational Risk Management
-            (Nov 2019)
-          </li>
-        </ul>
-      </section>
-
-      <hr />
-
-      <section>
-        <h2>Experience</h2>
+        <h2>Professional Experience</h2>
 
         <article>
           <h3>Fannie Mae</h3>
-          <h4>Human Resources - Corporate Governance, Lead Associate</h4>
-          <p><em>Jan 2022 - Present • Remote</em></p>
+          <p><strong>Lead Risk Associate — HR Governance</strong></p>
+          <p class="meta">2024–Present</p>
           <ul>
             <li>
-              Successfully supported the implementation and evolution of governance frameworks related
-              to AI/ML models within the Workday migration, aligned with internal policy and
-              regulatory standards.
+              Support governance and risk oversight for HR technology, including AI/ML
+              use cases, enterprise intake requirements, documentation, and ongoing
+              monitoring expectations.
             </li>
             <li>
-              Collaborated with HR business partners and GRC stakeholders to operationalize AI/ML
-              Standard and Procedure compliance across human capital systems.
+              Translate policy and control requirements into operational processes for
+              business and technology stakeholders.
             </li>
             <li>
-              Facilitated model documentation, inventory tracking, and change management practices
-              across AI/ML use cases in the HR space.
-            </li>
-            <li>
-              Contributed to risk assessments and control testing activities to ensure proper
-              governance of algorithmic decision-making.
-            </li>
-            <li>
-              Partnered with Compliance, Legal, and Internal Audit to maintain accountability and
-              oversight of Workday-integrated AI/ML tools.
+              Partner across HR, technology, risk, compliance, legal, and audit functions
+              on governance and accountability.
             </li>
           </ul>
 
-          <h4>Operations Risk - Risk Management, Senior Associate</h4>
+          <p><strong>Senior Risk Associate — IRM Governance</strong></p>
+          <p class="meta">2022–2024</p>
           <ul>
             <li>
-              Created and maintained the Monthly Risk Report for senior leadership, synthesizing key
-              operational risk insights and risk exposure updates.
+              Produced recurring risk reporting for senior leadership and supported
+              governance of enterprise delegations of authority.
             </li>
             <li>
-              Managed Delegations of Authority (DOAs) for both the Chief Information Office (CIO) and
-              Enterprise Operations divisions, ensuring governance controls were properly assigned and
-              monitored.
+              Coordinated large-scale risk and control assessment activity across
+              multiple business and technology organizations.
             </li>
             <li>
-              Partnered cross-functionally with Second Line of Defense (2LOD) stakeholders to facilitate
-              the completion of 250+ Risk and Control Self-Assessments (RCSAs) across two divisions.
-            </li>
-            <li>
-              Worked closely with the eGRC team to improve data quality and governance for over 3,000
-              Risk &amp; Control objects across MetricStream and Archer GRC platforms.
-            </li>
-            <li>
-              Supported ongoing operational risk initiatives by identifying process inefficiencies and
-              enhancing internal risk governance frameworks.
+              Supported data quality and governance across thousands of risk and control
+              records in enterprise GRC platforms.
             </li>
           </ul>
         </article>
 
         <article>
           <h3>Pennsylvania Air National Guard</h3>
-          <h4>Intelligence Officer (14N), Second Lieutenant</h4>
-          <p><em>Feb 2020 - Present • Harrisburg, PA</em></p>
-          <p><strong><em>Security Clearance: TS/SCI (Active)</em></strong></p>
+          <p><strong>Intelligence Officer</strong></p>
+          <p class="meta">2020–Present</p>
           <ul>
             <li>
-              Successfully completed Air Force Intelligence Officer Course with training in intelligence
-              analysis, briefing, target development, and collection management.
+              Lead and support analytical work in time-sensitive, security-conscious
+              environments.
             </li>
             <li>
-              Gained foundational knowledge in SIGINT, GEOINT, HUMINT, and all-source intelligence
-              disciplines under classified instructional programs.
-            </li>
-            <li>
-              Demonstrated leadership and adaptability in a high-tempo, security-sensitive environment
-              while upholding strict OPSEC standards.
-            </li>
-            <li>
-              Familiar with the handling of classified materials and participation in secure mission
-              planning exercises.
+              Apply structured analysis, briefing, planning, and decision-support skills
+              under operational constraints.
             </li>
           </ul>
         </article>
       </section>
 
-      <hr />
-
       <section>
-        <h2>Extracurricular Activities</h2>
-
-        <h3>West Virginia University Marching Band (2012–2014)</h3>
-
-        <h3>Phi Mu Alpha Sinfonia (2012–2015)</h3>
+        <h2>Certifications</h2>
         <ul>
-          <li>Music service fraternity</li>
-          <li>Completed 75 hours of community service</li>
+          <li>
+            American Bankers Association — Operational Risk Management Certificate
+          </li>
+          <li>
+            Risk Management Association — Operational Risk Management Fundamentals
+          </li>
         </ul>
-
-        <h3>West Virginia University Army ROTC (2012–2014)</h3>
       </section>
     </main>
 
-    <footer>
-      <hr />
-      <p>© 2026 Avery Holmes. All rights reserved.</p>
+    <footer class="container">
+      <p>© 2026 Avery Holmes · Chesterfield, Virginia</p>
     </footer>
   </body>
 </html>
