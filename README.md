@@ -16,7 +16,7 @@ This repository began as an HTML capstone project and has since been refreshed i
 ## Featured repositories
 
 - [SENG 505 Java Applications](https://github.com/avery-holmes/SENG505-Java-Applications)
-- [ITP 120 Java Programming I](https://github.com/avery-holmes/ITP120--Java-Intro)
+- [ITP 120 Java Fundamentals](https://github.com/avery-holmes/ITP120-Java-Fundamentals)
 - [HTML Portfolio Practice](https://github.com/avery-holmes/html-portfolio)
 
 ## Site structure
