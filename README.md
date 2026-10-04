@@ -11,7 +11,7 @@ This repository began as an HTML capstone project and has since been refreshed i
 - Java fundamentals and data structures
 - Git/GitHub workflow
 - API and cloud architecture
-- Building **TCH — Technology for Caregivers in the Home**, a caregiver-coordination mobile application
+- Building **TCH — Technology for Caregivers at Home**, a caregiver-coordination mobile application
 
 ## Featured repositories
 
