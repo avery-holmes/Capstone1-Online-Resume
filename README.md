@@ -1,6 +1,6 @@
-# Avery Holmes — Online Resume
+# Avery Holmes — Software Engineering Portfolio
 
-A lightweight personal resume site documenting my transition from enterprise risk and governance into software engineering.
+A lightweight software engineering portfolio and resume documenting my transition from enterprise risk and governance into hands-on development.
 
 This repository began as an HTML capstone project and has since been refreshed into a current, professional portfolio artifact. The site intentionally stays simple: semantic HTML, a small custom stylesheet, clear project links, and concise career information.
 
